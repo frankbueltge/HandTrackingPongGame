@@ -1,0 +1,17 @@
+
+video {
+  clear: both;
+  display: block;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  width:100%;
+  max-width:1100px;
+  height:auto;
+  z-index:0;
+  position:absolute;
+  top:0
+ 
+}
+
+button {background:coral; font-size:26px;padding:10px;height:50px}

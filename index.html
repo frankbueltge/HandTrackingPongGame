@@ -1,0 +1,25 @@
+<!-- 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script> 
+
+<body>
+  <section style="width:100%; display: flex; justify-content: center; align-items: center;">
+    <div style="max-width:1100px;">
+  <canvas id="pongCanvas" style="position: relative; top: 0;width:100%;max-width:1100px;z-index:2"></canvas> 
+      <canvas class="output_canvas" id="output_canvas" style="position: relative; top: 0;max-width:1100px"></canvas>
+
+    <div id="liveView" class="videoView" style="display: flex; justify-content: center; align-items: center;width:100%;z-index:0;"> 
+      <button id="webcamButton" class="mdc-button mdc-button--raised" style="position:absolute;top:10px;z-index:6"> 
+        <span class="mdc-button__ripple"></span>
+        <span class="mdc-button__label">ENABLE WEBCAM</span> 
+      </button> 
+        <video id="webcam"  autoplay playsinline></video> 
+    </div> 
+    </div>  
+    </section> 
