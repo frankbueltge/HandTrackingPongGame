@@ -1,4 +1,4 @@
-# HandTrackingPongGame
+# Hand Tracking Pong Game
 
 
 Check out the [live demo here](https://codepen.io/frank-bueltge/full/gOQYMwG)
